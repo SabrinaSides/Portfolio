@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Roboto&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+header{
+  background-color: rgb(180, 230, 180);
+  text-align: center;
+  font-family: "Lexend Mega", sans-serif, "Trebuchet MS", sans-serif;
+}
+
+header h1{
+  font-size: 70px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+header h2{
+  font-size: 40px;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  color: rgb(211, 168, 58);
+  
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+h3{
+  font-size: 35px;
+  padding: 10px 20px 5px 20px;
+  color: rgb(211, 168, 58);
+}
+
+section {
+  padding: 10px;
+}
+
+p{
+  padding: 0 20px;
+  line-height: 25px;
+}
+
+footer{
+  height: 10%;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 100%;
+}
+
+#portfolio{
+  text-align: center;
+}
+
+#contact{
+  text-align: center;
+}
+
+.img-face{
+  align-content: center;
+  border-radius: 3%;
+}
+
+.img-projects{
+  /*align-content: center; */
+  border-radius: 3%;
+  display: block;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  width: 50%;
+  height: 70%;
+}
+
+.background-dark{
+  background-color: rgb(180, 230, 180);
+}
+
+.background-light{
+  background-color: rgb(206, 233, 206);
+}
+
+.contact-form{
+  justify-content: flex-start;
+}
+
+/*flexbox properties */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* Contact form */
+
+form{
+  margin-right: 50px;
+}
+
+form label {
+  display: flex;
+  font-size: 18px;
+  margin-top: 10px;
+  color: black;
+  font-family: "Roboto", sans-serif, "Trebuchet MS", sans-serif;
+}
+
+form input[type=text] {
+  display: flex;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+form textarea {
+  display: flex;
+  height: 4.75rem;
+  width: 100%;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Desktop adjustments */
+@media all and (min-width: 800px) {
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* color changes for links */
+a:link{
+  color: black;
+}
+a:visited{
+  color: rgb(177, 157, 44);
+}
+a:hover{
+  color: rgb(61, 99, 61);
+}
+a:active{
+  color: rgb(221, 211, 123);
+}
