@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sabrina Sides</title>
-    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-
     <header id="home">
       <h1>Sabrina Sides</h1>
       <h2>Software Developer</h2>
@@ -18,137 +21,167 @@
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-     </header>
+        </ul>
+      </nav>
+    </header>
 
-     <main>
-       <!--Intro Section:
-        Who you are
-        Where you are
-        What you do and what makes you special-->
-        <section id="intro" class="background-light">
-          <div class="group">
-          <!--Headshot on left of text with flexbox-->
-            <div class="item">
-              <img src="images/sabrina.jpg" alt="Sabrina" class="img-face">
-              </div>
-
-            <div class="item item-double">
-              <h3>Hello there!</h3>
-              <p>My name is Sabrina and I'm a software developer living in Oklahoma City, Oklahoma.</p>
-              <p>I recently made a career change from an ICU nurse to a software developer. While the switch may seem dramatic, I've found that my curiosity, willingness to learn, attention to detail, and innovation have helped my transition. Please continue browsing my webpage to see everything I have to offer.</p>
-              </div>
+    <main>
+      <section id="intro" class="background-light">
+        <div class="group">
+          <div class="item">
+            <img src="images/sabrina.jpg" alt="Sabrina" class="img-face" />
           </div>
-          </section>
-         
-        
-        <!--About Me section:
-        demonstrate your passion for the web
-        demonstrate desire to work on a team with great programmers
-        show your personality outside of coding
-        List of services you can (or want to) provide a client. -->
-        <article class="background-dark">
+
+          <div class="item item-double">
+            <h3>Hello there!</h3>
+            <p>
+              My name is Sabrina and I'm a software developer living in Oklahoma
+              City, Oklahoma.
+            </p>
+            <p>
+              Formerly an ICU nurse, I am now learning how to make a difference
+              in the world through web development. I am a software developer
+              proficient in HTML, CSS, JavaScript and React. I have a strong
+              interest in creating and contributing to web experiences that
+              inspire health and happiness.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="background-dark">
         <section id="about">
           <h3>About Me</h3>
-          <p>The turmoil of 2020 led me to realize and appreciate how much technology affects our health, happiness, and everyday life. Technology gives us the capability to explore the world, express our creativity, challenge ourselves and connect with others all from our couch. As a software developer, I am eager to learn and collaborate with others to continue making the world a bigger and better place.</p>
+          <p>
+            In the summer of 2020, I rode my bike up 100,000 feet of elevation.
+            I wish I could say I rode my bike up actual mountains, but it turns
+            out Oklahoma is flat as a pancake. Two months of riding my bike on a
+            trainer and up virtual mountains (thanks Zwift!) taught me a lot
+            about my self. Mainly that I am capable of amazing feats when I have
+            the courage to take the first step. I applied the same courage and
+            grit to learning software development.
+          </p>
 
-          <!--update this paragraph as I gain more language experience-->
-          <p>I have developed projects using HTML, CSS, and JavaScript. I am constantly working on adding more languages and skills to my repertoire. I can contribute to your company using my front-end expertise as I continue to develop my full-stack knowledge.</p>
-          </section>
+          <p>
+            I have developed projects using HTML, CSS, JavaScript and React. I
+            am constantly working on adding more languages and skills to my
+            repertoire. I can contribute to your company using my front-end
+            expertise as I continue to develop my full-stack knowledge.
+          </p>
+        </section>
 
-          <!--3 images in a row using flexbox-->
-          <div class="group">
-            <div class="item">
-              <img src="images/mtb.jpg" alt="Mountain biking">
-            </div>
-            <div class="item">
-              <img src="images/onewheel.png" alt="One Wheeling">
-              </div>
-            <div class="item">
-              <img src="images/exploring.jpg" alt="Exploring the woods">
-              </div>
+        <div class="group">
+          <div class="item">
+            <img src="images/mtb.jpg" alt="Mountain biking" />
           </div>
+          <div class="item">
+            <img src="images/onewheel.png" alt="One Wheeling" />
+          </div>
+          <div class="item">
+            <img src="images/exploring.jpg" alt="Exploring the woods" />
+          </div>
+        </div>
         <section>
-          <p>During my time away from the computer, I really enjoy adventuring with my husband. Our adventures include: 
-            <ul>
-              <li>Finding new trails to shred on our mountain bikes</li>
-              <li>Cruising around town on our OneWheels</li>
-              <li>Trying out new coffee shops and local restaurants</li>
-              <li>Camping and enjoying nature</li>
-              </ul>
-          <p>...and watching plenty of Youtube and Netflix.</p>
-          </section>
-          </article>
+          <p>
+            In my free time, I really enjoy adventuring with my husband. Our
+            adventures include:
+          </p>
+          <ul>
+            <li>Finding new trails to shred on our mountain bikes</li>
+            <li>Cruising around town on our OneWheels</li>
+            <li>Trying out new coffee shops and local restaurants</li>
+            <li>Camping and enjoying nature</li>
+          </ul>
+        </section>
+      </article>
 
-        <!--Project section
-            Project Title
-            Project Description
-            link to Project -->
-        <section class="background-light" id="portfolio">
-          <!--first of two flexboxes so projects will stack in square shape-->
-          <h3>Portfolio</h3>
-          <div class="group">
-            <div class="item project-spacing">
-              <h2>National Parks Activity Search</h2>
-                <img src="images/park-list.png" alt="NP API Project Screenshot" class="img-projects">
-                <p>This app utilizes multiple APIs to help users find which national parks support their favorites outdoor activities.</p>
-                <p>Skills Used: HTML, CSS, Javascript, jQuery</p>
-                <a href="https://github.com/SabrinaSides/NationalParksActivitySearch" target="_blank">GitHub Repo</a>
-                <br>
-                <a href="https://sabrinasides.github.io/NationalParksActivitySearch/" target="_blank">Live Project</a>
-              </div>
-            <div class="item project-spacing">
-              <h2>Project Title #2</h2>
-                <img src="images/shebelieved.jpg" alt="Project Placeholder Image" class="img-projects">
-                <p>My project description will go here</p>
-                <p>List of skills used here (ex: HTML, CSS)</p>
-                <a href="#">Link to GitHub Repo</a>
-                <br>
-                <a href="#">Link to live project</a>
-              </div>
-            </div>
-          <!--second flexbox to make second row of projects-->
-           <div class="group">
-            <div class="item project-spacing">
-              <h2>Project Title #3</h2>
-                <img src="images/shebelieved.jpg" alt="Project Placeholder Image" class="img-projects">
-                <p>My project description will go here</p>
-                <p>List of skills used here (ex: HTML, CSS)</p>
-                <a href="#">Link to GitHub Repo</a>
-                <br>
-                <a href="#">Link to live project</a>
-              </div>
-            <div class="item project-spacing">
-              <h2>Project Title #4</h2>
-                <img src="images/shebelieved.jpg" alt="Project Placeholder Image" class="img-projects">
-                <p>My project description will go here</p>
-                <p>List of skills used here (ex: HTML, CSS)</p>
-                <a href="#">Link to GitHub Repo</a>
-                <br>
-                <a href="#">Link to live project</a>
-              </div>
-            </div>
-          </section>
+      <section class="background-light" id="portfolio">
+        <h3>Portfolio</h3>
+        <div class="group">
+          <div class="item project-spacing">
+            <h2>National Parks Activity Search</h2>
+            <img
+              src="images/park-list.png"
+              alt="NP API Project Screenshot"
+              class="img-projects"
+            />
+            <p>
+              This app utilizes multiple APIs to help users find which national
+              parks support their favorites outdoor activities.
+            </p>
+            <p>Skills Used: HTML, CSS, Javascript, jQuery</p>
+            <a
+              href="https://github.com/SabrinaSides/NationalParksActivitySearch"
+              target="_blank"
+              >GitHub Repo</a
+            >
+            <br />
+            <a
+              href="https://sabrinasides.github.io/NationalParksActivitySearch/"
+              target="_blank"
+              >Live Project</a
+            >
+          </div>
+          <div class="item project-spacing">
+            <h2>Project Title #2</h2>
+            <img
+              src="images/shebelieved.jpg"
+              alt="Project Placeholder Image"
+              class="img-projects"
+            />
+            <p>My project description will go here</p>
+            <p>List of skills used here (ex: HTML, CSS)</p>
+            <a href="#">Link to GitHub Repo</a>
+            <br />
+            <a href="#">Link to live project</a>
+          </div>
+        </div>
 
+        <div class="group">
+          <div class="item project-spacing">
+            <h2>Project Title #3</h2>
+            <img
+              src="images/shebelieved.jpg"
+              alt="Project Placeholder Image"
+              class="img-projects"
+            />
+            <p>My project description will go here</p>
+            <p>List of skills used here (ex: HTML, CSS)</p>
+            <a href="#">Link to GitHub Repo</a>
+            <br />
+            <a href="#">Link to live project</a>
+          </div>
+          <div class="item project-spacing">
+            <h2>Project Title #4</h2>
+            <img
+              src="images/shebelieved.jpg"
+              alt="Project Placeholder Image"
+              class="img-projects"
+            />
+            <p>My project description will go here</p>
+            <p>List of skills used here (ex: HTML, CSS)</p>
+            <a href="#">Link to GitHub Repo</a>
+            <br />
+            <a href="#">Link to live project</a>
+          </div>
+        </div>
+      </section>
 
-        <!--Contact Section:
-          email address
-          link to your github profile
-          link to your linkedin profile -->
-        <section class="background-dark" id="contact">
-          <h3>Contact Me</h3>
-          <p>I'd love to hear from you!</p> 
-          <div class="group links">
+      <section class="background-dark" id="contact">
+        <h3>Contact Me</h3>
+        <p>I'd love to hear from you!</p>
+        <div class="group links">
           <div class="item">
-          <p><a href="mailto:sabrinasides91@gmail.com">Email Me</a></p>
-           <div class="item">
-              <a href="https://www.linkedin.com/in/sabrina-sides-181279206/">LinkedIn</a>
-              </div>
-          <div class="item">
+            <p><a href="mailto:sabrinasides91@gmail.com">Email Me</a></p>
+            <div class="item">
+              <a href="https://www.linkedin.com/in/sabrina-sides-181279206/"
+                >LinkedIn</a
+              >
+            </div>
+            <div class="item">
               <a href="https://github.com/SabrinaSides">GitHub</a>
-              </div>
             </div>
+          </div>
           <div class="item contact-form">
             <form action="https://formspree.io/f/mvovnpog" method="post">
               <label for="name">Name:</label>
@@ -161,15 +194,13 @@
               <textarea id="message" name="message"></textarea>
 
               <button type="submit">Submit</button>
-              </form>
-            </div>
-            </div>
-          </section>
-       </main>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
 
-      <footer class="background-dark">
-        &copy; Sabrina Sides
-        </footer>
+    <footer class="background-dark">&copy; Sabrina Sides</footer>
     <script src="script.js"></script>
   </body>
 </html>

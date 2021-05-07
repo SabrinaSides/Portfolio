@@ -1,30 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Roboto&display=swap');
 
 body {
-  font-family: "Roboto", sans-serif, "Trebuchet MS", sans-serif;
+  font-family: 'Roboto', sans-serif, 'Trebuchet MS', sans-serif;
   font-size: 18px;
   margin: 0;
 }
 
-header{
+header {
   background-color: rgb(180, 230, 180);
   text-align: center;
-  font-family: "Lexend Mega", sans-serif, "Trebuchet MS", sans-serif;
+  font-family: 'Lexend Mega', sans-serif, 'Trebuchet MS', sans-serif;
 }
 
-header h1{
+header h1 {
   font-size: 70px;
   margin: 0;
   padding-top: 20px;
 }
 
-header h2{
+header h2 {
   font-size: 40px;
   margin: 0px;
   padding-top: 0px;
   padding-bottom: 20px;
   color: rgb(211, 168, 58);
-  
 }
 
 header nav {
@@ -48,7 +47,7 @@ header nav ul li:last-child a {
   margin-right: 0;
 }
 
-h3{
+h3 {
   font-size: 35px;
   padding: 0px 20px;
   color: rgb(211, 168, 58);
@@ -58,56 +57,57 @@ section {
   padding: 10px;
 }
 
-p{
+p {
   padding: 0 20px;
   line-height: 25px;
 }
 
-footer{
+footer {
   height: 10%;
 }
 
-img{
-  display: block;
+img {
+  display: flex;
+  align-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
-  height: 100%;
+  width: 60%;
+  height: 85%;
 }
 
-#portfolio{
+#portfolio {
   text-align: center;
 }
 
-#contact{
+#contact {
   text-align: center;
 }
 
-.img-face{
+.img-face {
   align-content: center;
   border-radius: 3%;
 }
 
-.img-projects{
+.img-projects {
   border-radius: 3%;
   display: block;
   width: 50%;
   height: 70%;
 }
 
-.project-spacing{
+.project-spacing {
   padding-bottom: 80px;
 }
 
-.background-dark{
+.background-dark {
   background-color: rgb(180, 230, 180);
 }
 
-.background-light{
+.background-light {
   background-color: rgb(206, 233, 206);
 }
 
-.contact-form{
+.contact-form {
   justify-content: flex-start;
 }
 
@@ -131,7 +131,7 @@ img{
 
 /* Contact form */
 
-form{
+form {
   margin-right: 50px;
 }
 
@@ -140,10 +140,10 @@ form label {
   font-size: 18px;
   margin-top: 10px;
   color: black;
-  font-family: "Roboto", sans-serif, "Trebuchet MS", sans-serif;
+  font-family: 'Roboto', sans-serif, 'Trebuchet MS', sans-serif;
 }
 
-form input[type=text] {
+form input[type='text'] {
   display: flex;
   color: #000;
   font-size: 18px;
@@ -167,15 +167,15 @@ form textarea {
 }
 
 /* color changes for links */
-a:link{
+a:link {
   color: black;
 }
-a:visited{
+a:visited {
   color: rgb(177, 157, 44);
 }
-a:hover{
+a:hover {
   color: rgb(61, 99, 61);
 }
-a:active{
+a:active {
   color: rgb(221, 211, 123);
 }
